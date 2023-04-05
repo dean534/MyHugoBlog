@@ -1,0 +1,26 @@
+[[widgets.homepage]]
+type = "search"
+
+[[widgets.homepage]]
+type = "archives"
+
+[widgets.homepage.params]
+limit = 5
+
+[[widgets.homepage]]
+type = "categories"
+
+[widgets.homepage.params]
+limit = 10
+
+[sidebar]
+emoji = "🍥"
+subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+
+[sidebar.avatar]
+enabled = true
+local = true
+src = "img/avatar.jpg"
+
+[footer]
+since = 2023
